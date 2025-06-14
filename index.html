@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T Krishna Chaitanya | Software Developer</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <div class="profile-img-wrapper">
+      <img src="./assets/profile.JPG" alt="Profile photo" />
+    </div>
+    <h1>T Krishna Chaitanya</h1>
+    <p class="tagline">Software Developer</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I’m a passionate software developer with 8+ years of experience, currently at Oracle. I enjoy architecting scalable systems,
+      building clean UI, and setting up automated testing pipelines. Always learning, always building.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="skill-group frontend">
+        <h4>Frontend</h4>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+      </div>
+      <div class="skill-group testing">
+        <h4>Testing</h4>
+        <span class="skill">Playwright</span>
+        <span class="skill">Jest</span>
+      </div>
+      <div class="skill-group devops">
+        <h4>DevOps & CI/CD</h4>
+        <span class="skill">Docker</span>
+        <span class="skill">CI/CD</span>
+        <span class="skill">Cloud Functions</span>
+      </div>
+      <div class="skill-group backend">
+        <h4>Backend</h4>
+        <span class="skill">Node.js</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-card">
+      <div class="experience-header" onclick="toggleContent(this)">Oracle – Apr 2025 to Present</div>
+      <div class="experience-content">
+        <p>Senior Member of Technical Staff: Worked on E2E Maui-template tests, architected Playwright setup, and automated nightly regression tests.</p>
+      </div>
+    </div>
+    <div class="experience-card">
+      <div class="experience-header" onclick="toggleContent(this)">Pega Systems – Jun 2022 to Mar 2025</div>
+      <div class="experience-content">
+        <p>
+          Responsible for branding and theming in Pega Infinity, built reusable UI components, developed CRDA tool for deployment automation using Jenkins and AWS S3.
+        </p>
+      </div>
+    </div>
+    <div class="experience-card">
+      <div class="experience-header" onclick="toggleContent(this)">Ivy Comptech – Apr 2021 to Jun 2022</div>
+      <div class="experience-content">
+        <p>
+          Reduced bundle size via Google Tag Manager optimization, built Node.js + MongoDB auth service, optimized Google Cloud functions for scale, improved frontend performance.
+        </p>
+      </div>
+    </div>
+    <div class="experience-card">
+      <div class="experience-header" onclick="toggleContent(this)">Molde Analytics – Oct 2019 to Apr 2021</div>
+      <div class="experience-content">
+        <p>
+          Built video annotation tool for ML training, SSE-based user activity tracker, and a central error-handling mechanism for forecasting tools.
+        </p>
+      </div>
+    </div>
+    <div class="experience-card">
+      <div class="experience-header" onclick="toggleContent(this)">TCS – Jun 2017 to Oct 2019</div>
+      <div class="experience-content">
+        <p>Worked as a System Engineer involved in enterprise application development and support.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Connect with me:
+      <a href="https://github.com/krish1326" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/tkrishnachaitanya05/" target="_blank">LinkedIn</a> |
+      <a href="mailto:krish13132013@gmail.com">Email</a>
+    </p>
+    <p>&copy; 2025 T Krishna Chaitanya</p>
+  </footer>
+
+  <script>
+    function toggleContent(element) {
+      const content = element.nextElementSibling;
+      content.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
